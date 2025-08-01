@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1° Agosto 2025</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <h1>01/08/2025</h1>
+    
+    <div class="letter-button" onclick="openLetter()">
+        <span>✉</span>
+    </div>
+    
+    <div class="overlay" id="overlay">
+        <div class="letter-container" id="letter">
+            <button class="close-btn" onclick="closeLetter()">×</button>
+            <div class="letter-content"></div>
+            <div class="letter-signature">Carmine <span class="heart">♥</span></div>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+    <audio id="backgroundMusic" loop>
+        <source src="assets/music/mygirl.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
